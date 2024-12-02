@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(61, 61, 210);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+}
+
+
+
+section {
+    padding: 20px 0;
+}
+
+.fs {
+    display: flex;
+    gap: 20px;
+}
+
+.fc {
+    width: 48%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.fc img {
+    width: 100%;         
+    height: 100%;         
+    object-fit: cover;    
+    object-position: center; 
+    transition: transform 0.3s ease; 
+}
+
+.fc:hover img {
+    transform: scale(1.05); 
+}
+
+
+.fr ul {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+}
+
+
+.fr a {
+    text-decoration: none;
+    color: black;
+}
+
+.sr ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sr li {
+    margin-bottom: 10px;
+}
+
+.te blockquote {
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.pd{
+    text-align: right;
+}
+.co form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.co input,
+.co textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.co button {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+footer {
+    background-color: rgb(61, 61, 210);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
